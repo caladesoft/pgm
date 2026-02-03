@@ -3,55 +3,208 @@
 
 @import "jekyll-theme-cayman";
 
-/* PGM Brand Colors */
-:root {
-  --pgm-orange: #f7931e;
-  --pgm-orange-dark: #e8781a;
-  --pgm-blue: #2d5986;
-  --pgm-blue-dark: #1e3d5c;
+/* Layout with Sidebar */
+.main-wrapper {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  gap: 2rem;
 }
 
-/* Override Cayman header with PGM colors */
-.page-header {
-  background-image: linear-gradient(120deg, var(--pgm-orange-dark), var(--pgm-orange), var(--pgm-blue));
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
 }
 
-/* Button styling to match */
-.btn {
-  border-color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(255, 255, 255, 0.1);
+/* Search Box */
+.search-container {
+  margin-bottom: 1.5rem;
+  position: relative;
 }
 
-.btn:hover {
-  border-color: rgba(255, 255, 255, 0.5);
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-/* Links in content - use PGM blue */
-.main-content a {
-  color: var(--pgm-blue);
-}
-
-.main-content a:hover {
-  color: var(--pgm-orange);
-}
-
-/* Headings - use PGM blue */
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
-  color: var(--pgm-blue);
-}
-
-/* Code blocks accent */
-.main-content code {
-  background-color: #fff5eb;
-  border: 1px solid #fde0c4;
-}
-
-.main-content pre {
+#search-input {
+  width: 100%;
+  padding: 0.6rem 1rem;
   border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#search-input:focus {
+  border-color: #159957;
+  box-shadow: 0 0 0 3px rgba(21, 153, 87, 0.1);
+}
+
+#search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 4px;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 100;
+  display: none;
+}
+
+#search-results.active {
+  display: block;
+}
+
+#search-results a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
+}
+
+#search-results a:last-child {
+  border-bottom: none;
+}
+
+#search-results a:hover {
+  background: #f5f5f5;
+}
+
+#search-results .result-title {
+  font-weight: 600;
+  color: #159957;
+}
+
+#search-results .result-preview {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+/* Navigation Sections */
+.nav-section {
+  margin-bottom: 1.5rem;
+}
+
+.nav-section h3 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #666;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-section li {
+  margin: 0;
+}
+
+.nav-section a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-section a:hover {
+  background: #f0f0f0;
+  color: #159957;
+}
+
+.nav-section a.active {
+  background: #e8f5e9;
+  color: #159957;
+  font-weight: 600;
+}
+
+/* Main Content Adjustments */
+.main-content {
+  flex: 1;
+  min-width: 0;
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Override Cayman defaults for our layout */
+.page-header {
+  padding: 2rem 1rem;
+}
+
+.site-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  border-top: 1px solid #eee;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .main-wrapper {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: relative;
+    top: 0;
+    max-height: none;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .nav-section {
+    margin-bottom: 1rem;
+  }
+
+  .nav-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .nav-section a {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* Scrollbar styling for sidebar */
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #999;
 }
