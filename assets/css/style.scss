@@ -1,0 +1,57 @@
+---
+---
+
+@import "jekyll-theme-cayman";
+
+/* PGM Brand Colors */
+:root {
+  --pgm-orange: #f7931e;
+  --pgm-orange-dark: #e8781a;
+  --pgm-blue: #2d5986;
+  --pgm-blue-dark: #1e3d5c;
+}
+
+/* Override Cayman header with PGM colors */
+.page-header {
+  background-image: linear-gradient(120deg, var(--pgm-orange-dark), var(--pgm-orange), var(--pgm-blue));
+}
+
+/* Button styling to match */
+.btn {
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Links in content - use PGM blue */
+.main-content a {
+  color: var(--pgm-blue);
+}
+
+.main-content a:hover {
+  color: var(--pgm-orange);
+}
+
+/* Headings - use PGM blue */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: var(--pgm-blue);
+}
+
+/* Code blocks accent */
+.main-content code {
+  background-color: #fff5eb;
+  border: 1px solid #fde0c4;
+}
+
+.main-content pre {
+  border: 1px solid #ddd;
+}
