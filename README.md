@@ -1,6 +1,16 @@
+<p align="center">
+  <img src="pgm-logo.svg" alt="PGM - PlayFab for GameMaker" width="400">
+</p>
+
+<p align="center">
+  <em>A comprehensive PlayFab SDK extension for GameMaker Studio 2.3+</em>
+</p>
+
+---
+
 # PGM Documentation
 
-This repository contains the documentation for **PGM (PlayFab for GameMaker)**, a comprehensive PlayFab SDK extension for GameMaker Studio 2.3+.
+This repository contains the documentation for **PGM (PlayFab for GameMaker)**.
 
 ## 📖 View Documentation
 
