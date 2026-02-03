@@ -750,7 +750,7 @@ If you've found a bug in the extension:
 2. Note the exact error message
 3. Describe what you expected vs. what happened
 4. Include relevant code snippets
-5. Report at: [GitHub Issues](https://github.com/your-repo/playfab-gms/issues)
+5. Report at: [GitHub Issues](https://github.com/caladesoft/pgm/issues)
 
 ---
 
