@@ -446,11 +446,11 @@ Or in the demo project, set in `scr_config.gml`:
 ## Full Documentation
 
 - **[API Reference](api-reference)** - Complete function documentation
-- **[PlayFab Documentation](https://docs.microsoft.com/gaming/playfab/)** - Official PlayFab docs
+- **[PlayFab Documentation](https://learn.microsoft.com/gaming/playfab/)** - Official PlayFab docs
 
 ## Getting Help
 
 - Check the [API Reference](api-reference) for function details
 - Run the demo project (included with PGM) to see working examples
 - Enable debug mode to diagnose issues
-- Visit [PlayFab Forums](https://community.playfab.com/) for community support
+- Visit [PlayFab Discord](https://discord.gg/msftgamedev) for community support

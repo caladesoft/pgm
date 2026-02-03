@@ -67,8 +67,8 @@ Available on the [YoYo Games Marketplace](https://marketplace.gamemaker.io/).
 
 ## Support
 
-- [PlayFab Documentation](https://docs.microsoft.com/gaming/playfab/)
-- [PlayFab Community Forums](https://community.playfab.com/)
+- [PlayFab Documentation](https://learn.microsoft.com/gaming/playfab/)
+- [PlayFab Discord Community](https://discord.gg/msftgamedev)
 
 ---
 

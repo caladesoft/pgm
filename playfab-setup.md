@@ -629,13 +629,13 @@ Now that PlayFab is set up:
 1. **Run the Demo Project** - See working examples of all features
 2. **Read the Quick Start Guide** - [Quick Start](quick-start)
 3. **Explore the API Reference** - [API Reference](api-reference)
-4. **Join the Community** - [PlayFab Forums](https://community.playfab.com/)
+4. **Join the Community** - [PlayFab Discord](https://discord.gg/msftgamedev)
 
 ---
 
 ## Additional Resources
 
-- [PlayFab Documentation](https://docs.microsoft.com/gaming/playfab/)
-- [PlayFab Tutorials](https://docs.microsoft.com/gaming/playfab/features/commerce/economy/)
-- [CloudScript Quickstart](https://docs.microsoft.com/gaming/playfab/features/automation/cloudscript/quickstart)
-- [Economy Best Practices](https://docs.microsoft.com/gaming/playfab/features/commerce/economy/quickstart)
+- [PlayFab Documentation](https://learn.microsoft.com/gaming/playfab/)
+- [PlayFab Tutorials](https://learn.microsoft.com/gaming/playfab/features/commerce/economy/)
+- [CloudScript Quickstart](https://learn.microsoft.com/gaming/playfab/features/automation/cloudscript/quickstart)
+- [Economy Best Practices](https://learn.microsoft.com/gaming/playfab/features/commerce/economy/quickstart)

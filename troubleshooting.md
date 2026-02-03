@@ -738,9 +738,8 @@ Look for error messages in the Output window.
 
 ### Step 5: Search for Solutions
 
-- [PlayFab Documentation](https://docs.microsoft.com/gaming/playfab/)
-- [PlayFab Forums](https://community.playfab.com/)
-- [PlayFab Discord](https://discord.gg/playfab)
+- [PlayFab Documentation](https://learn.microsoft.com/gaming/playfab/)
+- [PlayFab Discord](https://discord.gg/msftgamedev)
 
 ### Step 6: Report Issues
 
@@ -771,4 +770,4 @@ If you've found a bug in the extension:
 | 1135 | FriendshipAlreadyExists | Already friends |
 | 1142 | EmailAddressNotLinked | Account has no email linked |
 
-For a complete list, see [PlayFab Error Codes](https://docs.microsoft.com/gaming/playfab/api-references/events/data-types/errorcode).
+For a complete list, see [PlayFab Error Codes](https://learn.microsoft.com/gaming/playfab/api-references/events/data-types/errorcode).
