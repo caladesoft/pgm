@@ -1,13 +1,13 @@
 # PGM Documentation - Jekyll Configuration for GitHub Pages
 title: PGM - PlayFab for GameMaker
 description: A comprehensive PlayFab SDK extension for GameMaker Studio 2.3+
-baseurl: "" # Leave empty if using username.github.io/pgm-docs
-url: "" # Will be set by GitHub Pages
+baseurl: "/pgm"
+url: "https://caladesoft.github.io"
 
-# Theme
-remote_theme: pages-themes/cayman@v0.2.0
+# Theme - using GitHub's built-in supported theme
+theme: jekyll-theme-cayman
 plugins:
-  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Markdown settings
 markdown: kramdown
