@@ -407,7 +407,7 @@ Most functions require login first. Call a login function and wait for success b
 Ensure `obj_playfab_handler` exists in your room. This object handles all HTTP responses.
 
 ### Invalid Title ID
-Double-check your Title ID in the PlayFab Game Manager. It's usually 5-6 alphanumeric characters (e.g., "17E9B6").
+Double-check your Title ID in the PlayFab Game Manager. It's usually 5-6 alphanumeric characters (e.g., "ABC123").
 
 ### "Player creations have been disabled for this API"
 This error occurs when trying to login as guest (or any device-based login) but PlayFab is configured to block new player creation:
