@@ -168,7 +168,7 @@ playfab_login_with_device_id(function(success, data) {
 
 ```gml
 // Email/Password login (for registered accounts)
-playfab_login_with_email("player@email.com", "password123", function(success, data) {
+playfab_login_with_email("player@email.com", "YOUR_PASSWORD", function(success, data) {
     // Handle response
 });
 
@@ -178,7 +178,7 @@ playfab_login_with_custom_id("my_unique_player_id", function(success, data) {
 });
 
 // Register new account with email
-playfab_register_with_email("player@email.com", "password123", "PlayerName", function(success, data) {
+playfab_register_with_email("player@email.com", "YOUR_PASSWORD", "PlayerName", function(success, data) {
     // Automatically logs in on success
 });
 ```
@@ -445,13 +445,12 @@ Or in the demo project, set in `scr_config.gml`:
 
 ## Full Documentation
 
-- **[API Reference](API_REFERENCE.md)** - Complete function documentation
-- **[Demo Project](../demo_project/)** - Working examples
+- **[API Reference](api-reference)** - Complete function documentation
 - **[PlayFab Documentation](https://docs.microsoft.com/gaming/playfab/)** - Official PlayFab docs
 
 ## Getting Help
 
-- Check the [API Reference](API_REFERENCE.md) for function details
-- Run the demo project to see working examples
+- Check the [API Reference](api-reference) for function details
+- Run the demo project (included with PGM) to see working examples
 - Enable debug mode to diagnose issues
 - Visit [PlayFab Forums](https://community.playfab.com/) for community support

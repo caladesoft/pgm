@@ -627,8 +627,8 @@ After testing, verify in PlayFab:
 Now that PlayFab is set up:
 
 1. **Run the Demo Project** - See working examples of all features
-2. **Read the Quick Start Guide** - [QUICK_START.md](QUICK_START.md)
-3. **Explore the API Reference** - [API_REFERENCE.md](API_REFERENCE.md)
+2. **Read the Quick Start Guide** - [Quick Start](quick-start)
+3. **Explore the API Reference** - [API Reference](api-reference)
 4. **Join the Community** - [PlayFab Forums](https://community.playfab.com/)
 
 ---

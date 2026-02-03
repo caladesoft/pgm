@@ -289,7 +289,7 @@ playfab_login_with_email(email, password, callback)
 **Returns:** `real` - Request ID
 
 ```gml
-playfab_login_with_email("player@email.com", "password123", function(success, data) {
+playfab_login_with_email("player@email.com", "YOUR_PASSWORD", function(success, data) {
     if (success) {
         show_debug_message("Welcome back!");
     } else {
@@ -321,7 +321,7 @@ playfab_login_with_username(username, password, callback)
 **Returns:** `real` - Request ID
 
 ```gml
-playfab_login_with_username("PlayerOne", "password123", function(success, data) {
+playfab_login_with_username("PlayerOne", "YOUR_PASSWORD", function(success, data) {
     if (success) {
         show_debug_message("Logged in as: " + data.PlayFabId);
     }
@@ -417,7 +417,7 @@ playfab_register_with_email(email, password, username, callback)
 **Returns:** `real` - Request ID
 
 ```gml
-playfab_register_with_email("new@player.com", "password123", "NewPlayer", function(success, data) {
+playfab_register_with_email("new@player.com", "YOUR_PASSWORD", "NewPlayer", function(success, data) {
     if (success) {
         show_debug_message("Account created! ID: " + data.PlayFabId);
     } else {
@@ -542,7 +542,7 @@ playfab_link_email(email, password, callback)
 
 ```gml
 // After device login, offer account upgrade
-playfab_link_email("player@email.com", "password123", function(success, data) {
+playfab_link_email("player@email.com", "YOUR_PASSWORD", function(success, data) {
     if (success) {
         show_debug_message("Account upgraded! You can now login with email.");
     }
