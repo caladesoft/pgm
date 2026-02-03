@@ -3,9 +3,17 @@ layout: default
 title: PGM - PlayFab for GameMaker
 ---
 
-# PGM - PlayFab for GameMaker
+<p align="center">
+  <img src="pgm-logo.svg" alt="PGM - PlayFab for GameMaker" width="400">
+</p>
 
-A comprehensive PlayFab SDK extension for GameMaker Studio 2.3+, providing easy access to PlayFab's backend services for your games.
+<p align="center">
+  <em>A comprehensive PlayFab SDK extension for GameMaker Studio 2.3+</em>
+</p>
+
+---
+
+Easily integrate PlayFab's backend services into your GameMaker games with PGM.
 
 ## Features
 

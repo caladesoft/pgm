@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150">
+  <defs>
+    <linearGradient id="logoOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7931e"/>
+      <stop offset="100%" style="stop-color:#e8781a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Nested Hexagon Icon -->
+  <g transform="translate(75, 75)">
+    <!-- Outer hexagon -->
+    <polygon points="0,-55 48,-27.5 48,27.5 0,55 -48,27.5 -48,-27.5" fill="url(#logoOrange)"/>
+    <!-- Middle white hexagon -->
+    <polygon points="0,-42 36,-21 36,21 0,42 -36,21 -36,-21" fill="white"/>
+    <!-- Inner orange hexagon -->
+    <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" fill="url(#logoOrange)"/>
+    <!-- Center white hexagon -->
+    <polygon points="0,-18 16,-9 16,9 0,18 -16,9 -16,-9" fill="white"/>
+    <!-- Innermost orange hexagon -->
+    <polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4" fill="url(#logoOrange)"/>
+  </g>
+
+  <!-- PGM Text -->
+  <text x="145" y="85" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#2d5986">PGM</text>
+
+  <!-- Subtitle -->
+  <text x="148" y="115" font-family="Arial, sans-serif" font-size="18" fill="#2d5986">Playfab for GameMaker</text>
+</svg>
